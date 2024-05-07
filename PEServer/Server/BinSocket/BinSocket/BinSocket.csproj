@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="LitJson">
+      <HintPath>..\..\..\Tools\Dill\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\Tools\Dill\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PESocket">
+      <HintPath>..\..\..\Tools\Dill\PESocket.dll</HintPath>
+    </Reference>
+    <Reference Include="Protocol">
+      <HintPath>..\..\..\Tools\Dill\Protocol.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

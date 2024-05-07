@@ -1,0 +1,5 @@
+D:\SVN(PLG)\2022-11-18\军工教学\Server\BinSocket\ProtocoNet\obj\Debug\netcoreapp2.1\ProtocoNet.csproj.AssemblyReference.cache
+D:\SVN(PLG)\2022-11-18\军工教学\Server\BinSocket\ProtocoNet\obj\Debug\netcoreapp2.1\ProtocoNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\SVN(PLG)\2022-11-18\军工教学\Server\BinSocket\ProtocoNet\obj\Debug\netcoreapp2.1\ProtocoNet.AssemblyInfoInputs.cache
+D:\SVN(PLG)\2022-11-18\军工教学\Server\BinSocket\ProtocoNet\obj\Debug\netcoreapp2.1\ProtocoNet.AssemblyInfo.cs
+D:\SVN(PLG)\2022-11-18\军工教学\Server\BinSocket\ProtocoNet\obj\Debug\netcoreapp2.1\ProtocoNet.csproj.CoreCompileInputs.cache

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Server",
+    "\\Server\\Server",
+    "\\Server\\Server\\00Common",
+    "\\Server\\Server\\01Service",
+    "\\Server\\Server\\01Service\\01NetSvc",
+    "\\Server\\Server\\04DB",
+    "\\Server\\Server\\bin",
+    "\\Server\\Server\\Fakes",
+    "\\Server\\Server\\FakesAssemblies"
+  ],
+  "SelectedNode": "\\Server\\Server\\ServerRoot.cs",
+  "PreviewInSolutionExplorer": false
+}

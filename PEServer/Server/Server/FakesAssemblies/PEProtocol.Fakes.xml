@@ -1,0 +1,1394 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PEProtocol.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:PEProtocol.Fakes.ShimDevriceUserData">
+            <summary>PEProtocol.DevriceUserData 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimDevriceUserData.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimDevriceUserData.#ctor(PEProtocol.DevriceUserData)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimDevriceUserData.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimDevriceUserData.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimDevriceUserData.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimDevriceUserData.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimDevriceUserData.Constructor">
+            <summary>设置 DevriceUserData.DevriceUserData() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimGameMsg">
+            <summary>PEProtocol.GameMsg 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimGameMsg.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimGameMsg.#ctor(PEProtocol.GameMsg)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimGameMsg.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimGameMsg.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimGameMsg.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimGameMsg.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimGameMsg.Constructor">
+            <summary>设置 GameMsg.GameMsg() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimHositingObject">
+            <summary>PEProtocol.HositingObject 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimHositingObject.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimHositingObject.#ctor(PEProtocol.HositingObject)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimHositingObject.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimHositingObject.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimHositingObject.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimHositingObject.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimHositingObject.Constructor">
+            <summary>设置 HositingObject.HositingObject() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimPosition">
+            <summary>PEProtocol.Position 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimPosition.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimPosition.#ctor(PEProtocol.Position)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimPosition.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimPosition.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimPosition.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimPosition.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimPosition.Constructor">
+            <summary>设置 Position.Position() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimReqLogin">
+            <summary>PEProtocol.ReqLogin 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimReqLogin.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimReqLogin.#ctor(PEProtocol.ReqLogin)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimReqLogin.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimReqLogin.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimReqLogin.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimReqLogin.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimReqLogin.Constructor">
+            <summary>设置 ReqLogin.ReqLogin() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimReqRegister">
+            <summary>PEProtocol.ReqRegister 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimReqRegister.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimReqRegister.#ctor(PEProtocol.ReqRegister)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimReqRegister.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimReqRegister.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimReqRegister.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimReqRegister.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimReqRegister.Constructor">
+            <summary>设置 ReqRegister.ReqRegister() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResAccountGame">
+            <summary>PEProtocol.ResAccountGame 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResAccountGame.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResAccountGame.#ctor(PEProtocol.ResAccountGame)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResAccountGame.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResAccountGame.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResAccountGame.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResAccountGame.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResAccountGame.Constructor">
+            <summary>设置 ResAccountGame.ResAccountGame() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResCreateRoom">
+            <summary>PEProtocol.ResCreateRoom 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResCreateRoom.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResCreateRoom.#ctor(PEProtocol.ResCreateRoom)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResCreateRoom.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResCreateRoom.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResCreateRoom.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResCreateRoom.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResCreateRoom.Constructor">
+            <summary>设置 ResCreateRoom.ResCreateRoom() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResDriviingGame">
+            <summary>PEProtocol.ResDriviingGame 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResDriviingGame.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResDriviingGame.#ctor(PEProtocol.ResDriviingGame)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResDriviingGame.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResDriviingGame.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResDriviingGame.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResDriviingGame.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResDriviingGame.Constructor">
+            <summary>设置 ResDriviingGame.ResDriviingGame() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResDriviingInitGame">
+            <summary>PEProtocol.ResDriviingInitGame 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResDriviingInitGame.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResDriviingInitGame.#ctor(PEProtocol.ResDriviingInitGame)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResDriviingInitGame.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResDriviingInitGame.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResDriviingInitGame.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResDriviingInitGame.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResDriviingInitGame.Constructor">
+            <summary>设置 ResDriviingInitGame.ResDriviingInitGame() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResExitRoom">
+            <summary>PEProtocol.ResExitRoom 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResExitRoom.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResExitRoom.#ctor(PEProtocol.ResExitRoom)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResExitRoom.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResExitRoom.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResExitRoom.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResExitRoom.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResExitRoom.Constructor">
+            <summary>设置 ResExitRoom.ResExitRoom() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResGetAllRoomDT">
+            <summary>PEProtocol.ResGetAllRoomDT 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResGetAllRoomDT.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResGetAllRoomDT.#ctor(PEProtocol.ResGetAllRoomDT)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResGetAllRoomDT.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResGetAllRoomDT.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResGetAllRoomDT.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResGetAllRoomDT.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResGetAllRoomDT.Constructor">
+            <summary>设置 ResGetAllRoomDT.ResGetAllRoomDT() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResHoistingGame">
+            <summary>PEProtocol.ResHoistingGame 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResHoistingGame.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResHoistingGame.#ctor(PEProtocol.ResHoistingGame)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResHoistingGame.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResHoistingGame.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResHoistingGame.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResHoistingGame.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResHoistingGame.Constructor">
+            <summary>设置 ResHoistingGame.ResHoistingGame() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResJoinRoom">
+            <summary>PEProtocol.ResJoinRoom 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResJoinRoom.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResJoinRoom.#ctor(PEProtocol.ResJoinRoom)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResJoinRoom.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResJoinRoom.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResJoinRoom.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResJoinRoom.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResJoinRoom.Constructor">
+            <summary>设置 ResJoinRoom.ResJoinRoom() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResSetOffect">
+            <summary>PEProtocol.ResSetOffect 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResSetOffect.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResSetOffect.#ctor(PEProtocol.ResSetOffect)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResSetOffect.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResSetOffect.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResSetOffect.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResSetOffect.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResSetOffect.Constructor">
+            <summary>设置 ResSetOffect.ResSetOffect() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResStartGame">
+            <summary>PEProtocol.ResStartGame 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResStartGame.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResStartGame.#ctor(PEProtocol.ResStartGame)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimResStartGame.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResStartGame.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimResStartGame.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResStartGame.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimResStartGame.Constructor">
+            <summary>设置 ResStartGame.ResStartGame() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRoomData">
+            <summary>PEProtocol.RoomData 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRoomData.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRoomData.#ctor(PEProtocol.RoomData)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRoomData.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRoomData.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRoomData.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRoomData.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRoomData.Constructor">
+            <summary>设置 RoomData.RoomData() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRoomUserData">
+            <summary>PEProtocol.RoomUserData 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRoomUserData.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRoomUserData.#ctor(PEProtocol.RoomUserData)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRoomUserData.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRoomUserData.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRoomUserData.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRoomUserData.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRoomUserData.Constructor">
+            <summary>设置 RoomUserData.RoomUserData() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRotation">
+            <summary>PEProtocol.Rotation 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRotation.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRotation.#ctor(PEProtocol.Rotation)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRotation.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRotation.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRotation.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRotation.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRotation.Constructor">
+            <summary>设置 Rotation.Rotation() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspAccountGame">
+            <summary>PEProtocol.RspAccountGame 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspAccountGame.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspAccountGame.#ctor(PEProtocol.RspAccountGame)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspAccountGame.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspAccountGame.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspAccountGame.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspAccountGame.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspAccountGame.Constructor">
+            <summary>设置 RspAccountGame.RspAccountGame() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspCreateRoom">
+            <summary>PEProtocol.RspCreateRoom 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspCreateRoom.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspCreateRoom.#ctor(PEProtocol.RspCreateRoom)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspCreateRoom.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspCreateRoom.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspCreateRoom.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspCreateRoom.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspCreateRoom.Constructor">
+            <summary>设置 RspCreateRoom.RspCreateRoom() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspDevriceProject">
+            <summary>PEProtocol.RspDevriceProject 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDevriceProject.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDevriceProject.#ctor(PEProtocol.RspDevriceProject)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspDevriceProject.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDevriceProject.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDevriceProject.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspDevriceProject.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspDevriceProject.Constructor">
+            <summary>设置 RspDevriceProject.RspDevriceProject() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspDriviingGame">
+            <summary>PEProtocol.RspDriviingGame 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDriviingGame.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDriviingGame.#ctor(PEProtocol.RspDriviingGame)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspDriviingGame.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDriviingGame.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDriviingGame.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspDriviingGame.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspDriviingGame.Constructor">
+            <summary>设置 RspDriviingGame.RspDriviingGame() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspDriviingInitGame">
+            <summary>PEProtocol.RspDriviingInitGame 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDriviingInitGame.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDriviingInitGame.#ctor(PEProtocol.RspDriviingInitGame)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspDriviingInitGame.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDriviingInitGame.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspDriviingInitGame.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspDriviingInitGame.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspDriviingInitGame.Constructor">
+            <summary>设置 RspDriviingInitGame.RspDriviingInitGame() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspExitRoom">
+            <summary>PEProtocol.RspExitRoom 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspExitRoom.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspExitRoom.#ctor(PEProtocol.RspExitRoom)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspExitRoom.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspExitRoom.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspExitRoom.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspExitRoom.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspExitRoom.Constructor">
+            <summary>设置 RspExitRoom.RspExitRoom() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspGetAllRoomDT">
+            <summary>PEProtocol.RspGetAllRoomDT 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspGetAllRoomDT.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspGetAllRoomDT.#ctor(PEProtocol.RspGetAllRoomDT)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspGetAllRoomDT.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspGetAllRoomDT.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspGetAllRoomDT.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspGetAllRoomDT.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspGetAllRoomDT.Constructor">
+            <summary>设置 RspGetAllRoomDT.RspGetAllRoomDT() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspHoistingGame">
+            <summary>PEProtocol.RspHoistingGame 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspHoistingGame.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspHoistingGame.#ctor(PEProtocol.RspHoistingGame)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspHoistingGame.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspHoistingGame.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspHoistingGame.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspHoistingGame.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspHoistingGame.Constructor">
+            <summary>设置 RspHoistingGame.RspHoistingGame() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspJoinRoom">
+            <summary>PEProtocol.RspJoinRoom 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspJoinRoom.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspJoinRoom.#ctor(PEProtocol.RspJoinRoom)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspJoinRoom.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspJoinRoom.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspJoinRoom.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspJoinRoom.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspJoinRoom.Constructor">
+            <summary>设置 RspJoinRoom.RspJoinRoom() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspLogin">
+            <summary>PEProtocol.RspLogin 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspLogin.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspLogin.#ctor(PEProtocol.RspLogin)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspLogin.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspLogin.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspLogin.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspLogin.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspLogin.Constructor">
+            <summary>设置 RspLogin.RspLogin() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspRegister">
+            <summary>PEProtocol.RspRegister 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspRegister.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspRegister.#ctor(PEProtocol.RspRegister)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspRegister.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspRegister.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspRegister.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspRegister.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspRegister.Constructor">
+            <summary>设置 RspRegister.RspRegister() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspSetOffect">
+            <summary>PEProtocol.RspSetOffect 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspSetOffect.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspSetOffect.#ctor(PEProtocol.RspSetOffect)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspSetOffect.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspSetOffect.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspSetOffect.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspSetOffect.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspSetOffect.Constructor">
+            <summary>设置 RspSetOffect.RspSetOffect() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspStartGame">
+            <summary>PEProtocol.RspStartGame 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspStartGame.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspStartGame.#ctor(PEProtocol.RspStartGame)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimRspStartGame.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspStartGame.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimRspStartGame.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspStartGame.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimRspStartGame.Constructor">
+            <summary>设置 RspStartGame.RspStartGame() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimUserData">
+            <summary>PEProtocol.UserData 的填充码类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimUserData.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimUserData.#ctor(PEProtocol.UserData)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.ShimUserData.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimUserData.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.ShimUserData.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimUserData.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.ShimUserData.Constructor">
+            <summary>设置 UserData.UserData() 的 填充码</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubDevriceUserData">
+            <summary>PEProtocol.DevriceUserData 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubDevriceUserData.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubDevriceUserData.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubDevriceUserData.InitializeStub">
+            <summary>初始化 type StubDevriceUserData 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubDevriceUserData.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubDevriceUserData.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubGameMsg">
+            <summary>PEProtocol.GameMsg 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubGameMsg.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubGameMsg.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubGameMsg.InitializeStub">
+            <summary>初始化 type StubGameMsg 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubGameMsg.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubGameMsg.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubHositingObject">
+            <summary>PEProtocol.HositingObject 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubHositingObject.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubHositingObject.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubHositingObject.InitializeStub">
+            <summary>初始化 type StubHositingObject 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubHositingObject.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubHositingObject.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubPosition">
+            <summary>PEProtocol.Position 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubPosition.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubPosition.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubPosition.InitializeStub">
+            <summary>初始化 type StubPosition 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubPosition.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubPosition.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubReqLogin">
+            <summary>PEProtocol.ReqLogin 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubReqLogin.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubReqLogin.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubReqLogin.InitializeStub">
+            <summary>初始化 type StubReqLogin 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubReqLogin.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubReqLogin.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubReqRegister">
+            <summary>PEProtocol.ReqRegister 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubReqRegister.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubReqRegister.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubReqRegister.InitializeStub">
+            <summary>初始化 type StubReqRegister 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubReqRegister.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubReqRegister.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubResAccountGame">
+            <summary>PEProtocol.ResAccountGame 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResAccountGame.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResAccountGame.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResAccountGame.InitializeStub">
+            <summary>初始化 type StubResAccountGame 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResAccountGame.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResAccountGame.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubResCreateRoom">
+            <summary>PEProtocol.ResCreateRoom 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResCreateRoom.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResCreateRoom.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResCreateRoom.InitializeStub">
+            <summary>初始化 type StubResCreateRoom 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResCreateRoom.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResCreateRoom.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubResDriviingGame">
+            <summary>PEProtocol.ResDriviingGame 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResDriviingGame.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResDriviingGame.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResDriviingGame.InitializeStub">
+            <summary>初始化 type StubResDriviingGame 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResDriviingGame.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResDriviingGame.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubResDriviingInitGame">
+            <summary>PEProtocol.ResDriviingInitGame 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResDriviingInitGame.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResDriviingInitGame.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResDriviingInitGame.InitializeStub">
+            <summary>初始化 type StubResDriviingInitGame 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResDriviingInitGame.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResDriviingInitGame.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubResExitRoom">
+            <summary>PEProtocol.ResExitRoom 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResExitRoom.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResExitRoom.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResExitRoom.InitializeStub">
+            <summary>初始化 type StubResExitRoom 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResExitRoom.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResExitRoom.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubResGetAllRoomDT">
+            <summary>PEProtocol.ResGetAllRoomDT 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResGetAllRoomDT.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResGetAllRoomDT.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResGetAllRoomDT.InitializeStub">
+            <summary>初始化 type StubResGetAllRoomDT 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResGetAllRoomDT.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResGetAllRoomDT.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubResHoistingGame">
+            <summary>PEProtocol.ResHoistingGame 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResHoistingGame.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResHoistingGame.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResHoistingGame.InitializeStub">
+            <summary>初始化 type StubResHoistingGame 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResHoistingGame.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResHoistingGame.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubResJoinRoom">
+            <summary>PEProtocol.ResJoinRoom 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResJoinRoom.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResJoinRoom.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResJoinRoom.InitializeStub">
+            <summary>初始化 type StubResJoinRoom 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResJoinRoom.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResJoinRoom.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubResSetOffect">
+            <summary>PEProtocol.ResSetOffect 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResSetOffect.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResSetOffect.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResSetOffect.InitializeStub">
+            <summary>初始化 type StubResSetOffect 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResSetOffect.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResSetOffect.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubResStartGame">
+            <summary>PEProtocol.ResStartGame 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResStartGame.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResStartGame.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubResStartGame.InitializeStub">
+            <summary>初始化 type StubResStartGame 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResStartGame.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubResStartGame.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRoomData">
+            <summary>PEProtocol.RoomData 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRoomData.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRoomData.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRoomData.InitializeStub">
+            <summary>初始化 type StubRoomData 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRoomData.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRoomData.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRoomUserData">
+            <summary>PEProtocol.RoomUserData 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRoomUserData.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRoomUserData.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRoomUserData.InitializeStub">
+            <summary>初始化 type StubRoomUserData 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRoomUserData.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRoomUserData.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRotation">
+            <summary>PEProtocol.Rotation 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRotation.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRotation.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRotation.InitializeStub">
+            <summary>初始化 type StubRotation 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRotation.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRotation.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspAccountGame">
+            <summary>PEProtocol.RspAccountGame 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspAccountGame.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspAccountGame.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspAccountGame.InitializeStub">
+            <summary>初始化 type StubRspAccountGame 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspAccountGame.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspAccountGame.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspCreateRoom">
+            <summary>PEProtocol.RspCreateRoom 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspCreateRoom.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspCreateRoom.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspCreateRoom.InitializeStub">
+            <summary>初始化 type StubRspCreateRoom 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspCreateRoom.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspCreateRoom.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspDevriceProject">
+            <summary>PEProtocol.RspDevriceProject 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspDevriceProject.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspDevriceProject.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspDevriceProject.InitializeStub">
+            <summary>初始化 type StubRspDevriceProject 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspDevriceProject.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspDevriceProject.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspDriviingGame">
+            <summary>PEProtocol.RspDriviingGame 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspDriviingGame.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspDriviingGame.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspDriviingGame.InitializeStub">
+            <summary>初始化 type StubRspDriviingGame 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspDriviingGame.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspDriviingGame.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspDriviingInitGame">
+            <summary>PEProtocol.RspDriviingInitGame 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspDriviingInitGame.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspDriviingInitGame.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspDriviingInitGame.InitializeStub">
+            <summary>初始化 type StubRspDriviingInitGame 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspDriviingInitGame.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspDriviingInitGame.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspExitRoom">
+            <summary>PEProtocol.RspExitRoom 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspExitRoom.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspExitRoom.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspExitRoom.InitializeStub">
+            <summary>初始化 type StubRspExitRoom 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspExitRoom.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspExitRoom.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspGetAllRoomDT">
+            <summary>PEProtocol.RspGetAllRoomDT 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspGetAllRoomDT.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspGetAllRoomDT.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspGetAllRoomDT.InitializeStub">
+            <summary>初始化 type StubRspGetAllRoomDT 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspGetAllRoomDT.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspGetAllRoomDT.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspHoistingGame">
+            <summary>PEProtocol.RspHoistingGame 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspHoistingGame.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspHoistingGame.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspHoistingGame.InitializeStub">
+            <summary>初始化 type StubRspHoistingGame 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspHoistingGame.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspHoistingGame.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspJoinRoom">
+            <summary>PEProtocol.RspJoinRoom 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspJoinRoom.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspJoinRoom.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspJoinRoom.InitializeStub">
+            <summary>初始化 type StubRspJoinRoom 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspJoinRoom.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspJoinRoom.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspLogin">
+            <summary>PEProtocol.RspLogin 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspLogin.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspLogin.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspLogin.InitializeStub">
+            <summary>初始化 type StubRspLogin 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspLogin.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspLogin.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspRegister">
+            <summary>PEProtocol.RspRegister 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspRegister.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspRegister.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspRegister.InitializeStub">
+            <summary>初始化 type StubRspRegister 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspRegister.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspRegister.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspSetOffect">
+            <summary>PEProtocol.RspSetOffect 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspSetOffect.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspSetOffect.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspSetOffect.InitializeStub">
+            <summary>初始化 type StubRspSetOffect 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspSetOffect.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspSetOffect.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubRspStartGame">
+            <summary>PEProtocol.RspStartGame 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspStartGame.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspStartGame.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubRspStartGame.InitializeStub">
+            <summary>初始化 type StubRspStartGame 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspStartGame.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubRspStartGame.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:PEProtocol.Fakes.StubUserData">
+            <summary>PEProtocol.UserData 的存根类型</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubUserData.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubUserData.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PEProtocol.Fakes.StubUserData.InitializeStub">
+            <summary>初始化 type StubUserData 的新实例</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubUserData.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PEProtocol.Fakes.StubUserData.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>
